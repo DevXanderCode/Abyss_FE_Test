@@ -1,0 +1,42 @@
+.container {
+  /* padding: 10px 15px;
+  border: 1px solid #d4d4d4;
+  background-color: rgb(101, 138, 248);
+  color: white;
+  border-radius: 10px; */
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.box {
+  justify-content: center;
+}
+
+.box-cont {
+  /* position: relative; */
+  justify-content: center;
+  /* position: absolute; */
+}
+
+.text-cont {
+  padding: 10px 15px;
+  border: 1px solid #d4d4d4;
+  background-color: rgb(101, 138, 248);
+  color: white;
+  border-radius: 10px;
+}
+
+.icon-cont {
+  /* position: absolute; */
+  right: 0;
+  left: 60%;
+}
+
+.icon-btn {
+  cursor: pointer;
+}
+
+.icon-btn img {
+  cursor: pointer;
+  width: 24px;
+}

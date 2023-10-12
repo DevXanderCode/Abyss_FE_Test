@@ -1,0 +1,55 @@
+.header-cont {
+  background-color: #f6f6f6;
+  box-shadow: 0 0 0 1px #d5d5d5;
+  width: 100%;
+  position: absolute;
+}
+
+.service-count {
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-view-btn {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.list-view-btn:hover {
+  background-color: lightskyblue;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+.btn img:hover {
+  color: white;
+}
+
+.disabled-btn {
+  cursor: not-allowed;
+}
+
+.percent-cont {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+}
