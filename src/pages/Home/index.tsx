@@ -1,8 +1,8 @@
 import React, { useState, useCallback, MouseEvent } from "react";
 import "./Home.css";
-import { Header } from "@/components";
-import type { ITree } from "@/types";
-import renderTree from "@/layout/renderTree";
+import { Header } from "../../components";
+import type { ITree } from "../../types";
+import renderTree from "../../layout/renderTree";
 
 const Home: React.FC = () => {
   const [position, setPosition] = useState<{ x: string | number; y: number }>({

@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
-import { TreeBox, InputBox } from "@/components";
-import type { ITree } from "@/types";
+import { TreeBox, InputBox } from "../components";
+import { ITree } from "../types";
 import CirclePlus from "@/assets/circlePlus.png";
 
 const renderTree: (
